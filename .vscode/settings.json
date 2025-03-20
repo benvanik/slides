@@ -1,0 +1,12 @@
+{
+  "emeraldwalk.runonsave": {
+    "shell": "bash",
+    "commands": [
+      {
+        "match": "\\.md$",
+        "cmd": "./build-only.sh \"${relativeFile}\"",
+        "autoShowOutputPanel": "error"
+      }
+    ]
+  }
+}
